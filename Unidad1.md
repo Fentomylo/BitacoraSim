@@ -126,7 +126,43 @@ function draw() {
 
 ## ACTIVIDAD 6
 
+Ps yo decidi representar el ruido de perlin como un fogon o fogata, ya que el fuego cambia de forma todo el tiempo, pero en un fogon o fogata cuando esta normal los cambios no son bruscos. Con esto hago que la parte de arriba de la llama suba y baje suavemente, haciendolo parecido al fuego real pero ps con la limitación del p5. Trate de verlo como un fogon mas continuo en vez de cambiarrlo de manera aleatoria. y ps tambien le puse el fondo negrillo para que se vea mejor el fueguillo. En el video se ve mejor :3, gracias gpt.
 
+<img width="2559" height="1352" alt="image" src="https://github.com/user-attachments/assets/5a40e65d-66a7-47e8-bc6c-1accec62ae95" />
 
+https://github.com/user-attachments/assets/2e18a129-8b0d-48ba-bc6e-54ab27c45948
+````js
+let start = 0;
+
+function setup() {
+  createCanvas(360, 240);
+}
+
+function draw() {
+  background(20);
+
+  let xoff = start;
+
+  for (let x = 0; x < width; x += 12) {
+
+    let h = map(noise(xoff), 0, 1, 30, 120);
+
+    noStroke();
+    fill(255, 120, 0);
+
+    triangle(
+      x, height,
+      x + 5, height - h,
+      x + 10, height
+    );
+
+    xoff += 0.08;
+  }
+
+  start += 0.01;
+}
+````
+
+<img width="640" height="460" alt="image" src="https://github.com/user-attachments/assets/84df4830-2705-4d73-9b84-5ef6a0c63c3b" />
 
 
