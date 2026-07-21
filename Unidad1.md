@@ -8,7 +8,7 @@ Parece como q esta dibujando un retrato sjajdsa
 
 - Pues yo diria que la distribucion uniforme le da la misma probabilidad a todo para generarse como por ejemplo en un codigo de barras hay lineas blancas y negras que lo forma, mientras que la no uniforme le da prioridad a una forma o color mas que otras, como digamos el centro de color negro en una gaussiana por ejemplo.
 
-este si se va un poco a la derecha pero mas lento.
+este si se va un poco a la derecha pero mas lento, aunque a veces se devuelve se mueve mas hacia la derecha.
  <img width="1919" height="1066" alt="image" src="https://github.com/user-attachments/assets/2df6c8f2-55a7-4119-9833-09335cf21311" />
 
 ````js
