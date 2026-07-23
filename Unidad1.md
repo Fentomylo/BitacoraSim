@@ -167,6 +167,29 @@ function draw() {
 
 ## ACTIVIDAD 7 = FESTIVAL DE CIENCIA Y CREATIVIDAD: CRIATURAS FANTASTICAS
 
+### SOBRE EL FESTIVAL
+Basicamente, el concepto de este festival busca juntar algunos conceptos de biologia, con la creatividad de los niños de la ciudad para que puedan crear sus propios seres fantasticos con mas conocimiento del que ya tienen.
+
+en este festival se realizan actividades como:
+
+* Dibujos transformados en realidad, donde los niños crean sus propios seres mezclando biologia y los 4 elementos naturales.
+* Experiencias interactivas de la naturaleza, aproximando el cuidado ambiental
+
+Estos festivales estan realizados por Buen Comienzo y su publico principal son niños.
+
+Como tal, este festival de Buen Comienzo tiene varias ediciones sobre temas diversos, por ejemplo el que viene es de un viaje espacial o algo asi, como tal yo decidi usar el de las criaturas fantasticas ya que al mezclar ciencia y creatividad en estos eventos, tambien se le puede mostrar a los niños que esta creatividad puede expandirse mucho mas que a simples dibujos, y que pueden hacerlo mediante la tecnologia. Esto ampliando el Mensaje de que Medellin es una ciudad de desarrollo en latinoamerica.
+
+### CONCEPTO
+
+Al tener claro que este festival busca mezclar conocimientos de Biologia con la creatividad de los niños, no puede ser tan avanzada ya que como tal, estos conocimientos se refieren como a conocer nueva fauna y flora, si son carnivoros, herviboros o viviparos o cualquiera de todos lo que este, por lo que, al ser un festival de ciencia y creatividad, este mismo esta dirigido a un publico infantil, por lo que la experiencia interactiva que voy a diseñar, tiene que estar tambien con estos conocimientos pero que sean basicos y entendibles para que los niños puedan interactuar.
+
+Ps como tal esto es lo mas importante a tener en cuenta:
+
+* La experiencia es en p5
+* El publico de esta experiencia son niños
+* Informacion simple para que los niños la pueden entender
+* Que la experiencia no sea controlada si no influenciada.
+
 
 
 
