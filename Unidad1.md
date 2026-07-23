@@ -165,4 +165,8 @@ function draw() {
 
 <img width="640" height="460" alt="image" src="https://github.com/user-attachments/assets/84df4830-2705-4d73-9b84-5ef6a0c63c3b" />
 
+## ACTIVIDAD 7 = FESTIVAL DE CIENCIA Y CREATIVIDAD: CRIATURAS FANTASTICAS
+
+
+
 
