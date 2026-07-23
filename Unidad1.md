@@ -187,7 +187,7 @@ Ps como tal esto es lo mas importante a tener en cuenta:
 
 * La experiencia es en p5
 * El publico de esta experiencia son niños
-* Informacion simple para que los niños la pueden entender
+* Informacion simple pero completa para que los niños la pueden entender
 * Que la experiencia no sea controlada si no influenciada.
 
 
