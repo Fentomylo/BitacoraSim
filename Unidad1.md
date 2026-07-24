@@ -1439,6 +1439,8 @@ function windowResized() {
 
 Ps digo yo que si, ya si no ps mala mia ahi NOTA: 5
 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7d9d54a8-3727-457c-b887-99577ce21f98" />
+
 
 
 
