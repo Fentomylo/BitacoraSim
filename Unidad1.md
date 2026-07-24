@@ -1439,6 +1439,8 @@ function windowResized() {
 
 ## AUTOEVALUACION
 
+La mayoria de la evidencia esta en la experiencia final.
+
 * Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	☐ SI
 * -> [EXPERIENCIA FINAL](#experiencia-final)
 * Simulación con intención: utilizo al menos tres conceptos de la unidad para comunicar las ideas del encargo.	☐	si 
