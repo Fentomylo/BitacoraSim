@@ -344,6 +344,14 @@ https://github.com/user-attachments/assets/d1b787f4-9ed6-4d18-80a2-6ed85ee59dff
 
 Esta es la experiencia interactiva que yo propongo, mostrar un proceso interactivo con biologia y fantasia para promover el conocimietno de que la naturaleza en si, ya es fantastica
 
+### 5 MOMENTOS
+
+* Posibilidad: la dirección del crecimiento de las flores y la aparición del dragon
+* Tendencia: la caida de los cerezos que son llevados por el viento.
+* Normalidad: El crecimiento en si de las flores, se distribuyen bien y normal.
+* Excepción: El dragon, le puse probabilidad de que aparezca, aunque la idea principal que no es tan improbable son los cambios de estaciones del año, clave en mi experiencia.
+* Influencia: Velocidad de la experiencia, alteracion visual del polen, donde mas toque es donde mas crecen las flores, la alteracion de la probabilidad del dragon y el manejo de los cerezos al caer.
+
 ### LINK AL P5
 
  [EXPERIENCIARDAPOLIS](https://editor.p5js.org/Tomygga/sketches/_ScS_H3_V)
@@ -1431,11 +1439,16 @@ function windowResized() {
 
 ## AUTOEVALUACION
 
-* Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	☐ -> [EXPERIENCIA FINAL](#experiencia-final)
-* Simulación con intención: utilizo al menos tres conceptos de la unidad para comunicar las ideas del encargo.	☐	si ->[CONCEPTOS](#CONCEPTOS-DE-ESTA-UNIDAD-Y-DONDE-SE-VAN-A-APLICAR)
-* Interacción significativa: la interacción modifica el comportamiento o las probabilidades del sistema, que también funciona sin intervención.	☐	si -> [EXPERIENCIA FINAL](#experiencia-final)
-* Prototipo funcional: la experiencia puede ejecutarse y recorrerse completa sin errores que impidan comprenderla.	☐	si -> [EXPERIENCIA FINAL](#experiencia-final)
-* Proceso documentado: la bitácora evidencia avances, decisiones, dificultades, soluciones, uso de IA y enlace al prototipo.	☐	si ->[DESARROLLO DE LA EXPERIENCIA](#DESARROLLO-DE-LA-EXPERIENCIA)
+* Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	☐ SI
+-> [EXPERIENCIA FINAL](#experiencia-final)
+* Simulación con intención: utilizo al menos tres conceptos de la unidad para comunicar las ideas del encargo.	☐	si 
+->[CONCEPTOS](#CONCEPTOS-DE-ESTA-UNIDAD-Y-DONDE-SE-VAN-A-APLICAR)
+* Interacción significativa: la interacción modifica el comportamiento o las probabilidades del sistema, que también funciona sin intervención.	☐	si
+-> [EXPERIENCIA FINAL](#experiencia-final)
+* Prototipo funcional: la experiencia puede ejecutarse y recorrerse completa sin errores que impidan comprenderla.	☐	si 
+-> [EXPERIENCIA FINAL](#experiencia-final)
+* Proceso documentado: la bitácora evidencia avances, decisiones, dificultades, soluciones, uso de IA y enlace al prototipo.	☐	si 
+->[DESARROLLO DE LA EXPERIENCIA](#DESARROLLO-DE-LA-EXPERIENCIA)
 
 Ps digo yo que si, ya si no ps mala mia ahi NOTA: 5
 
