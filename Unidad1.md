@@ -346,11 +346,11 @@ Esta es la experiencia interactiva que yo propongo, mostrar un proceso interacti
 
 ### 5 MOMENTOS
 
-* Posibilidad: la dirección del crecimiento de las flores y la aparición del dragon
-* Tendencia: la caida de los cerezos que son llevados por el viento.
-* Normalidad: El crecimiento en si de las flores, se distribuyen bien y normal.
-* Excepción: El dragon le puse probabilidad de que aparezca, aunque la idea principal que no es tan improbable son los cambios de estaciones del año y el polen puede hacer crecer un poco mas rapido el ceerezo.
-* Influencia: Velocidad de la experiencia, alteracion visual del polen, donde mas toque es donde mas crecen las flores, la alteracion de la probabilidad del dragon y el manejo de los cerezos al caer.
+* Posibilidad: Al arrancar el ciclo el árbol no tiene ningún lado preferido, así que puede crecer libremente hacia cualquier dirección sin importar la cantidad de flores, eso lo determina el tiempo.
+* Tendencia: A medida que nacen flores hacia un lado, el árbol va agarrando vuelo y sigue creciendo más hacia esa misma dirección, tambien estan en su caida, caen de forma ordenada y siguen una tendencia como viento hacia la derecha.
+* Normalidad: La mayoría de los brotes nacen apiñados cerca de las ramas principales, haciendo que crezcan de una forma natural y ordenada.
+* Excepción: Las particulas de polen dan saltos largos e impredecibles,La aparición del Dragón ocurre mediante un temporizador aleatorio irregular y, al pasar, esparce polen en zonas alejadas a las que el bonsái no llega de forma habitual y hacerlo crecer mas.
+* Influencia: Velocidad de la experiencia, alteracion visual del polen, donde mas toque es donde mas crecen las flores, la alteracion de la probabilidad del dragon y el manejo de los cerezos al caer del arbol.
 
 ### LINK AL P5
 
