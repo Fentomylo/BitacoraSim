@@ -349,7 +349,7 @@ Esta es la experiencia interactiva que yo propongo, mostrar un proceso interacti
 * Posibilidad: la dirección del crecimiento de las flores y la aparición del dragon
 * Tendencia: la caida de los cerezos que son llevados por el viento.
 * Normalidad: El crecimiento en si de las flores, se distribuyen bien y normal.
-* Excepción: El dragon, le puse probabilidad de que aparezca, aunque la idea principal que no es tan improbable son los cambios de estaciones del año, clave en mi experiencia.
+* Excepción: El dragon le puse probabilidad de que aparezca, aunque la idea principal que no es tan improbable son los cambios de estaciones del año y el polen puede hacer crecer un poco mas rapido el ceerezo.
 * Influencia: Velocidad de la experiencia, alteracion visual del polen, donde mas toque es donde mas crecen las flores, la alteracion de la probabilidad del dragon y el manejo de los cerezos al caer.
 
 ### LINK AL P5
