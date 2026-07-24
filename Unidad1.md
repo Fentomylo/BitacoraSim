@@ -228,7 +228,7 @@ Ahora, como tal la idea es mostrar el ciclo de crecimiento de un arbol sakura, i
 
 #### ¿COMO INFLUYE EL USUARIO SIN CONTROLAR NI ALTERAR LA EXPERIENCIA?
 
-Decidi irme por algo simple, el usuario al interactuar hace que el ciclo biologico y el cambio de estaciones pase mas rapido, y que cuando caigan las flores de cerezo, este las pueda como medio desplazar cuando estan moviendose con el viento suave.
+Decidi irme por algo simple, el usuario al interactuar hace que el ciclo biologico y el cambio de estaciones pase mas rapido, y que cuando caigan las flores de cerezo, este las pueda como medio desplazar cuando estan moviendose con el viento suave. A parte de esto, dependiendo de donde toque el usuario es donde van a crecer los cerezos
 
 En cuanto a la experiencia, esta es continua y cuando caen los cerezos, esta misma experiencia vuelve a empezar para que crezcan otra vez estas flores y alguien mas la pueda disfrutar.
 
