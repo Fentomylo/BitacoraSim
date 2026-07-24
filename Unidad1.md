@@ -1439,9 +1439,9 @@ function windowResized() {
 
 ## AUTOEVALUACION
 
-La mayoria de la evidencia esta en la experiencia final. AQUI ESTA DOCUMENTADO TODO EL DISEÑO
+La mayoria de la evidencia esta en la experiencia final.
 
-* [DISEÑO](#ACTIVIDAD-7-=-FESTIVAL-DE-CIENCIA-Y-CREATIVIDAD:-CRIATURAS-(BIOLOGIA)-FANTASTICAS)
+* [DISEÑO](#SOBRE-EL-FESTIVAL)
 
 * Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	☐ SI
 * -> [EXPERIENCIA FINAL](#experiencia-final)
