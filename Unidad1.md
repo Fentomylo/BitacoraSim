@@ -1431,11 +1431,11 @@ function windowResized() {
 
 ## AUTOEVALUACION
 
-* Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	☐	si	
-* Simulación con intención: utilizo al menos tres conceptos de la unidad para comunicar las ideas del encargo.	☐	si
-* Interacción significativa: la interacción modifica el comportamiento o las probabilidades del sistema, que también funciona sin intervención.	☐	si
-* Prototipo funcional: la experiencia puede ejecutarse y recorrerse completa sin errores que impidan comprenderla.	☐	si
-* Proceso documentado: la bitácora evidencia avances, decisiones, dificultades, soluciones, uso de IA y enlace al prototipo.	☐	si
+* Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	☐ -> EXPERIENCIA FINAL
+* Simulación con intención: utilizo al menos tres conceptos de la unidad para comunicar las ideas del encargo.	☐	si -> CONCEPTOS DE ESTA UNIDAD Y DONDE SE VAN A APLICAR
+* Interacción significativa: la interacción modifica el comportamiento o las probabilidades del sistema, que también funciona sin intervención.	☐	si -> EXPERIENCIA FINAL
+* Prototipo funcional: la experiencia puede ejecutarse y recorrerse completa sin errores que impidan comprenderla.	☐	si -> LINK AL P5
+* Proceso documentado: la bitácora evidencia avances, decisiones, dificultades, soluciones, uso de IA y enlace al prototipo.	☐	si -> DESARROLLO DE LA EXPERIENCIA
 
 Ps digo yo que si, ya si no ps mala mia ahi NOTA: 5
 
