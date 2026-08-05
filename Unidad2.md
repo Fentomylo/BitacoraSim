@@ -1095,7 +1095,7 @@ class Particle {
 | El sistema produce variaciones con una identidad reconocible. | 15% | 90% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
 | Experimente, compare, seleccione y descarte con criterios claros. | 10% | 85% | [PROCESO DE DESARROLLO](#PROCESO-DE-DESARROLLO) |
 | Puedo distinguir y sustentar lo disenado y lo emergente. | 10% | 100% | ya en la expo. pero si creo q duro |
-| **Total** | **100%** | **100%** | **100%** |
+| **Total** | **100%** | **92%** | **4.6** |
 
 TODO ESTA PUESTO EN LA PARTE DE ARRIBA
 
