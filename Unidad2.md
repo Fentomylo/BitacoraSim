@@ -49,14 +49,97 @@ Quise dejar fijas las reglas principales y que se puedan cambiar parametros como
 
 Quise que tuviera un diseño parecido a los pokemones, pero dios no se parecen mucho, aunque si se distinguen por sus colores clave, Mientras que la interaccion quise permitir agregar recursos con un clic, porque quiero que sea facil entender que hace cada uno de los pokemones y como reaccionan.
 
+### INVARIANTES 
+
+Siempre existen los mismos pokemones, el ciclo de dominancia, la evolucion y la tension entre competir, protegerse y cooperar.
+
+### VARIABLES
+
+Cambian las posiciones iniciales, la semilla, los recursos creados por el usuario y los parametros del panel.
+
+## CONDICIONES
+
+### Posicion, velocidad y aceleracion:
+
+Cada particula tiene posicion, velocidad y aceleracion que cambian en cada frame segun las fuerzas que recibe.
+
+### Varias poblaciones de particulas:
+
+El sistema tiene cuatro poblaciones: Charmanders, Squirtles, Bulbasaurs y Eevees, cada una con un comportamiento diferente.
+
+### Interacciones dependientes de la distancia:
+
+Todas las relaciones dependen de la distancia entre las particulas, usando diferentes radios de interaccion.
+
+### Relaciones de atraccion, repulsion o indiferencia:
+
+Las particulas pueden atraerse, rechazarse o no reaccionar entre si dependiendo de los pokemones y la situacion.
+
+### Al menos una relacion asimetrica:
+
+Existe un ciclo de dominancia donde cada especie de pokemon puede vencer a una y al mismo tiempo ser vencida por otra.
+
+### Variabilidad entre ejecuciones:
+
+Cada simulacion empieza con posiciones aleatorias y puede cambiar por la semilla, los recursos y los parametros del panel
+
+### Comportamientos emergentes, no trayectorias predefinidas:
+
+Los grupos, persecuciones y evoluciones aparecen por las reglas del sistema, no porque esten programados de antemano.
+
+### Una identidad reconocible entre sus diferentes resultados:
+
+Aunque cada ejecucion es diferente, siempre se mantiene la idea de competencia, cooperacion y proteccion entre los pokemones
+
+## PROCESO DE DESARROLLO
+
+Esto fue todo con IA, xq las mates son re dificiles
+
+Ps no fue tan dificil, en cuanto a hallazgos t descartes no tuve, poruqe las mecanicas me las tiro al inicio como queria, solo fue cuadrarlas en lo que me demore bastante tiempo.
+
+Esta fue la Primera version
+
+<img width="1283" height="1138" alt="image" src="https://github.com/user-attachments/assets/b35b292d-5c1f-4f20-bafa-6973696efeb6" />
+
+Ya aqui fue donde cuadre una version mas establem donde ya los pokemones no se juntaban entre si, aunque si se quedaban estaticos
+
+<img width="1024" height="575" alt="image" src="https://github.com/user-attachments/assets/b5951214-3550-48b5-8eaf-9f40e0ea0c1d" />
+
+Aqui ya pude cuadrar el funcionamiento como se llegaria a ver mas en la version final
+
+<img width="1050" height="719" alt="image" src="https://github.com/user-attachments/assets/ee268410-7c96-42c7-ab92-5bcc7339f8fa" />
+
+Aqui ya fui cambiando mas la parte visual
+
+<img width="1217" height="720" alt="image" src="https://github.com/user-attachments/assets/9928b122-cbfa-4180-8fd8-9a97ddc78883" />
+
+Estos fueron los primeros diseños de los "pokemones"
+
+<img width="1498" height="1183" alt="image" src="https://github.com/user-attachments/assets/95864d1b-9c26-42fa-89b1-c80279a3d5f0" />
+
+Y a partir de aqui, fui buscando un balanceo para que se pudiera ver bien para la version final
+
+<img width="1139" height="1115" alt="image" src="https://github.com/user-attachments/assets/2baaaadc-c92f-4e9c-be10-64deb8239e02" />
+
+Podria poner mas fotos, pero son literalmente lo mismo, asi que no hay como una version q se vea mas diferente
+
+## RESULTADO FINAL
+
+Al final, el bulbasaur en la gran mayoria de casos q probe hacia el trabajo del charmander, y viceversa. Pero en unos intentos que fueron pocos si cumplio como yo lo habia visto, asi que este es el resultado final, con todo balanceado lo mejor que pudimos la IA y yo, y sobre todo, haberle agregado una partesita donde se puede modificar variables, pero no las reglas.
+
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/bb8bfa08-a565-47d2-9f1d-aba39d781a44" />
+
+Otra version
+
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/0a846a29-1ccd-4f78-8592-b0793e35eda2" />
+
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/9c4c1ee4-e1bb-4c2c-a00a-269e3a798ba1" />
+
+### LINK AL PROYECTO
+[LINK AL P5](https://editor.p5js.org/Tomygga/sketches/ITTIoegT1)
 
 
-
-
-
-
-
-## FINAL CODIGO
+### FINAL CODIGO
 ```js
 
 /* ============================================================
@@ -966,7 +1049,19 @@ class Particle {
 
 ```
 
+## AUTOEVALUACIÓN
 
+| Criterio | Peso | Valoracion | Aporte |
+|----------|:----:|:----------:|:------:|
+| La intencion es clara y perceptible en el comportamiento. | 20% | 100% | 20% |
+| Los tipos, cantidades, matriz y parametros estan justificados desde la intencion. | 25% | 100% | 25% |
+| Comprendo y puedo modificar el funcionamiento tecnico del sistema. | 20% | 100% | 20% |
+| El sistema produce variaciones con una identidad reconocible. | 15% | 100% | 15% |
+| Experimente, compare, seleccione y descarte con criterios claros. | 10% | 100% | 10% |
+| Puedo distinguir y sustentar lo disenado y lo emergente. | 10% | 100% | 10% |
+| **Total** | **100%** | **100%** | **100%** |
 
+TODO ESTA PUESTO EN LA PARTE DE ARRIBA
 
+NOTA = 5
 
