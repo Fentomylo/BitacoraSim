@@ -1089,15 +1089,15 @@ class Particle {
 
 | Criterio | Peso | Valoracion | Aporte |
 |----------|:----:|:----------:|:------:|
-| La intencion es clara y perceptible en el comportamiento. | 20% | 100% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
+| La intencion es clara y perceptible en el comportamiento. | 20% | 95% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
 | Los tipos, cantidades, matriz y parametros estan justificados desde la intencion. | 25% | 100% | [Diseño](#Diseño-del-sistema) |
-| Comprendo y puedo modificar el funcionamiento tecnico del sistema. | 20% | 100% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
-| El sistema produce variaciones con una identidad reconocible. | 15% | 100% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
-| Experimente, compare, seleccione y descarte con criterios claros. | 10% | 100% | [PROCESO DE DESARROLLO](#PROCESO-DE-DESARROLLO) |
+| Comprendo y puedo modificar el funcionamiento tecnico del sistema. | 20% | 80% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
+| El sistema produce variaciones con una identidad reconocible. | 15% | 90% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
+| Experimente, compare, seleccione y descarte con criterios claros. | 10% | 85% | [PROCESO DE DESARROLLO](#PROCESO-DE-DESARROLLO) |
 | Puedo distinguir y sustentar lo disenado y lo emergente. | 10% | 100% | ya en la expo. pero si creo q duro |
 | **Total** | **100%** | **100%** | **100%** |
 
 TODO ESTA PUESTO EN LA PARTE DE ARRIBA
 
-NOTA = 5
+NOTA = 4.6
 
