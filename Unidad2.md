@@ -95,7 +95,9 @@ Aunque cada ejecucion es diferente, siempre se mantiene la idea de competencia, 
 
 Esto fue todo con IA, xq las mates son re dificiles
 
-Ps no fue tan dificil, en cuanto a hallazgos t descartes no tuve, poruqe las mecanicas me las tiro al inicio como queria, solo fue cuadrarlas en lo que me demore bastante tiempo.
+Ps no fue tan dificil, en cuanto a hallazgos y descartes no tuve, poruqe las mecanicas me las tiro al inicio como queria, solo fue cuadrarlas en lo que me demore bastante tiempo.
+
+En el codigo aparecen fuego, agua y planta. Esos son charmander, bulbasaur y squirtle
 
 Esta fue la Primera version
 
