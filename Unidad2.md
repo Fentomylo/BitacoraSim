@@ -91,6 +91,19 @@ Los grupos, persecuciones y evoluciones aparecen por las reglas del sistema, no 
 
 Aunque cada ejecucion es diferente, siempre se mantiene la idea de competencia, cooperacion y proteccion entre los pokemones
 
+### LO DE LAS MATRICES
+
+Tengo una matriz de dominancia por los tipos
+
+<img width="592" height="186" alt="image" src="https://github.com/user-attachments/assets/4c3bade7-cf93-447b-8434-2d3c8d866fce" />
+
+TAmbien tengo el ciclo inverso
+
+<img width="591" height="187" alt="image" src="https://github.com/user-attachments/assets/add1198d-401b-4332-b26a-e8d08802d08e" />
+
+Se pueden atraer entre ellas, repulsar y simplemente pasar indiferentes
+
+
 ## PROCESO DE DESARROLLO
 
 Esto fue todo con IA, xq las mates son re dificiles
