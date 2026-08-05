@@ -91,7 +91,7 @@ Los grupos, persecuciones y evoluciones aparecen por las reglas del sistema, no 
 
 Aunque cada ejecucion es diferente, siempre se mantiene la idea de competencia, cooperacion y proteccion entre los pokemones
 
-### LO DE LAS MATRICES
+### LO DE LAS MATRICES Y PARAMETROS
 
 Tengo una matriz de dominancia por los tipos
 
@@ -102,6 +102,27 @@ TAmbien tengo el ciclo inverso
 <img width="591" height="187" alt="image" src="https://github.com/user-attachments/assets/add1198d-401b-4332-b26a-e8d08802d08e" />
 
 Se pueden atraer entre ellas, repulsar y simplemente pasar indiferentes
+
+#### BASE FUEGO (CHARMANDER)
+* coopGain: fuerza con la que busca acercarse a otras Plantas.
+* coopRange: distancia máxima para cooperar.
+* coopThreshold: cantidad mínima de compañeros para considerar que existe cooperación.
+* fearBasePlanta: miedo cuando está aislada.
+* fearDilution: cuánto disminuye ese miedo al aumentar el tamaño del grupo.
+
+#### BASE AGUA (SQUIRTLE)
+* shieldGain: fuerza con la que se agrupan para formar un escudo.
+* shieldRange: distancia para mantener la formación.
+* shieldThreshold: número mínimo de compañeros para activar la defensa.
+* shieldRepelGain: fuerza con la que el grupo repele al depredador.
+* loneFearGain: intensidad con la que huye cuando está sola.
+
+#### BASE PLANTA (BULBASAUR)
+* coopGain: fuerza con la que busca acercarse a otras Plantas.
+* coopRange: distancia máxima para cooperar.
+* coopThreshold: cantidad mínima de compañeros para considerar que existe cooperación.
+* fearBasePlanta: miedo cuando está aislada.
+* fearDilution: cuánto disminuye ese miedo al aumentar el tamaño del grupo.
 
 
 ## PROCESO DE DESARROLLO
@@ -1069,7 +1090,7 @@ class Particle {
 | Criterio | Peso | Valoracion | Aporte |
 |----------|:----:|:----------:|:------:|
 | La intencion es clara y perceptible en el comportamiento. | 20% | 100% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
-| Los tipos, cantidades, matriz y parametros estan justificados desde la intencion. | 25% | 100% | [Diseño](#Diseño-del-sistema |
+| Los tipos, cantidades, matriz y parametros estan justificados desde la intencion. | 25% | 100% | [Diseño](#Diseño-del-sistema) |
 | Comprendo y puedo modificar el funcionamiento tecnico del sistema. | 20% | 100% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
 | El sistema produce variaciones con una identidad reconocible. | 15% | 100% | [EXPERIENCIA FINAL](#RESULTADO-FINAL) |
 | Experimente, compare, seleccione y descarte con criterios claros. | 10% | 100% | [PROCESO DE DESARROLLO](#PROCESO-DE-DESARROLLO) |
