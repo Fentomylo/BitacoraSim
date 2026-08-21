@@ -163,6 +163,6 @@ Asi mas organizao
 | Entrega técnica y documentación | 5 | la URL pública abre; la bitácora permite verificar el proceso. | 5 |
 | **Total Puntos** | **100** | | **80** |
 
-4 porque pudo haber sido mejor visualmente, ya no aguanto mas juanfel
+4 porque pudo haber sido mejor visualmente y en funcionamiento, pero son la 1 am y ya no m da pa mas
 
 <img width="539" height="371" alt="image" src="https://github.com/user-attachments/assets/add8ea50-e185-4acf-98d0-225dcaba2e78" />
