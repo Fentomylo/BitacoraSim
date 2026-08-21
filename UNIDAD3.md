@@ -134,7 +134,10 @@ Asi mas organizao
 | **0:30 - 0:56** | Transición al Drop | Aparición de polvo estelar simulando la dispersión del gas tras la primera fase. |
 | **0:56 - 1:07** | Acumulación | Concentración progresiva de energía hacia el centro para generar tensión de cara a la siguiente fase. |
 | **1:07 - 3:15** | Estrellas y Coreografía | Explosión de 5 segundos seguida de un campo estelar caótico y dinámico que representa el nacimiento de una estrella. |
-| **3:15 - Final** | Clímax y Cierre | Acumulación de masa solar, explosión final mezclando todos los estados anteriores y retorno a la calma con la nebulosa. |
+| **3:15 - Final** | Clímax y Cierre | Acumulación de masa solar, explosión final mezclando todos los estados anteriores y retorno a la calma con la nebulosa. |<
+
+Igual la idea es que esto aparezca en orden, y ya cuando avance, puedo usar la misma herramienta anterior, hasta llegar a la ultima que las puedo usar todas. La idea es esto para 
+que el instrumento sea mas divertido
 
 ## Bitácora de IA:
 
