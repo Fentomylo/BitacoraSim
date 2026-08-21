@@ -137,7 +137,8 @@ Asi mas organizao
 | **3:15 - Final** | Clímax y Cierre | Acumulación de masa solar, explosión final mezclando todos los estados anteriores y retorno a la calma con la nebulosa. |<
 
 Igual la idea es que esto aparezca en orden, y ya cuando avance, puedo usar la misma herramienta anterior, hasta llegar a la ultima para usarlas todas. La idea es esto para 
-que el instrumento sea mas divertido y dinamico supongo
+que el instrumento sea mas divertido y dinámico supongo. Es mas para improvisar pero con un orden
+
 
 ## Bitácora de IA:
 
