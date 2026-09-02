@@ -120,3 +120,7 @@ Desorden: cada personaje pulsa distinto, cables sueltos, brillo apagado
 Organización parcial: 2–4 personajes se mueven al mismo compás, cables fluorescentes
 Organización estable: todos laten juntos, pulso colectivo, brillo conjunto
 Esto coincide con la lógica del orden r y con la referencia visual que mandaste.
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/85b39e9b-4b83-4fce-82c9-eee7cc95c364" />
+
