@@ -1,125 +1,80 @@
 # IDEA AHI REDACTADA PARA HACER ESTO
 
-# BUFFERING — el escritorio con alma
+# Frutiger Aero OS — Cómo funcionan los agentes y las ventanas
 
-## Concepto central
+Este documento explica, ventana por ventana y agente por agente, cómo el modelo de Kuramoto gobierna el comportamiento visual y sonoro del sistema.
 
-Los 8 nodos dejan de ser objetos (CRT, disco, emoticon, módem) y se convierten en **personajes** — chicas-mascota estilo el género "OS-tan" de la estética anime de los 2000: pelo en degradados cian/verde/azul tipo Aero, auriculares grandes, accesorios de cable colgando como si fueran mechones de pelo, sosteniendo esferas de cristal o discos brillantes, con ese aire nostálgico entre tecnológico y kawaii que mandaste de referencia. Cada una personifica un rasgo de comportamiento del sistema, no solo un color distinto.
+## El modelo, en una frase
 
-La mecánica no cambia: el jugador sigue **conectando cables** entre ellas para decidir quién escucha a quién — pero ahora ese cable es literalmente el cordón de sus auriculares, algo que sale de un personaje y se enchufa a otro. Sube o baja la señal general, desconecta a una de golpe, y observa si el resto la reabsorbe o si se desincroniza todo el grupo.
-
-## Qué representan θᵢ, ωᵢ y K (sin cambios)
-
-- **θᵢ:** el instante de "pulso" de cada personaje dentro de su propio ciclo — cuando canta/destella su beat visual y sonoro.
-- **ωᵢ:** su temperamento innato, cuán rápido pulsaría si estuviera sola.
-- **K:** la fuerza de señal general — cuánto se dejan arrastrar unas por otras.
-
-## La extensión de topología (sin cambios, ahora encarnada en los personajes)
-
-Sigue siendo la sustitución del acoplamiento global por uno basado en la red de cables que el jugador tiende — `(K/kᵢ) Σ_{j∈vecinos(i)} sin(θⱼ−θᵢ)` — pero ahora esos cables son los cordones de auriculares de cada personaje, así que "cablear" el sistema se siente como decidir quién está literalmente enchufada a quién. Sigue siendo tu decisión defenderla con tus palabras frente al modelo original.
-
-## Los 4 personajes (personalidades audiovisuales)
-
-| Personaje | Rol conductual | Diseño / movimiento | Sonido | Reacción particular |
-|---|---|---|---|---|
-| **Estática-tan** | nerviosa, ωᵢ alta | pelo con patrón de interferencia/ruido de TV, gestos bruscos y cortos | percusión glitcheada, stabs cortados | se resincroniza rápido, pero se desestabiliza fácil ante cualquier perturbación cercana |
-| **Núcleo-tan** | terca, ωᵢ baja | sostiene una esfera de cristal grande contra el pecho, casi no se mueve | pad grave y sostenido | resiste el arrastre de K; cuesta integrarla, pero una vez sincronizada estabiliza a las demás |
-| **Reflejo-tan** | imitativa, ωᵢ media | copia la pose y el tono de color de quien tenga más cerca en fase (no en el espacio) | arpegios brillantes tipo synth-pop | prioriza mimetizarse con quien esté más sincronizada con ella en ese momento |
-| **Señal-tan** | errática, ωᵢ variable | accesorios tipo barra de señal en el pelo que titilan sin patrón fijo, deriva lentamente por la pantalla | textura granular, ruido de interferencia fragmentado | su ωᵢ cambia levemente con el tiempo — nunca se integra del todo, mantiene fricción constante en el sistema |
-
-*(Nota: esto se inspira en el género de mascotas "OS-tan"/personificación de tecnología, no en reproducir un personaje o artista específico — vale la pena que definas tú el diseño final de cada una.)*
-
-## Interacción performativa (sin cambios)
-
-1. **Gesto global:** barra de "señal" que sube o baja K para todas.
-2. **Intervención individual:** conectar/cortar cordones de auriculares entre pares de personajes = editar la topología.
-3. **Perturbación:** arrastrar bruscamente a un personaje simula que se "desconecta", forzándole un salto de fase — se observa la onda de reacción en el resto.
-
-## Los tres estados (sin cambios en la lógica, reskin visual)
-
-- **Desorden:** cada personaje pulsa/canta en su momento, sin patrón común; colores desaturados, cables sueltos.
-- **Organización parcial:** subgrupos de 2–4 personajes laten juntas (mismo destello, mismo compás), cables entre ellas brillan.
-- **Organización estable:** las 8 laten como una sola — destello cromado conjunto, acorde/arpegio unificado.
-
-**Indicador:** una barra de señal (o el brillo colectivo de las esferas de cristal que sostienen) ligada directamente al parámetro de orden r.
-
-## Por qué esto no podría ser un reloj (sin cambios)
-
-La sincronía sigue sin estar guionizada: depende de qué cables tendiste, del nivel de K, y de a quién desconectaste y cuándo. Un temporizador no podría replicar que el "todas juntas" no existe hasta que el jugador lo arma, y que se puede romper con una sola intervención.
+Cada agente es un oscilador de Kuramoto: acumula una fase propia `θᵢ` que avanza según su "temperamento" `ωᵢ` más la influencia de sus vecinos, ponderada por la fuerza de acople `K`. Cada vez que esa fase completa una vuelta (2π), el agente dispara su nota y su "kick" visual (escala, halo, brillo). Soltar un agente sobre una ventana no es solo estético: **cambia la fórmula con la que ese agente calcula su propia fase**, porque cada ventana reemplaza o modula el término de acople de forma distinta. Ahí vive la relación real entre algoritmo, sonido e imagen.
 
 ---
 
-*El diseño visual de cada personaje (colores, ropa, expresiones) queda abierto para que lo desarrolles — lo que debes seguir pudiendo explicar es la lógica matemática detrás de cada una: qué variable representa su comportamiento y por qué.*
+## Los 8 agentes
 
+Cada uno tiene una forma, un color, un `ωᵢ` (frecuencia natural), un estilo de movimiento propio y un instrumento distinto — la personalidad no se apoya solo en el color o en la altura de la nota, sino también en *cómo* se mueve.
 
-Propuesta concreta de los 8 personajes
-La idea es mantener la misma base visual de escritorio retro-tech, pero que cada nodo sea un “personaje” con personalidad distinta, no todos humanos ni todos anime.
+| Agente | ω (temperamento) | Forma | Color | Movimiento | Instrumento |
+|---|---|---|---|---|---|
+| **Static-Tan** | 1.8 — nerviosa, reactiva | Estrella de picos afilados | Cian | `jittery`: retargeting muy rápido + temblor constante de posición | `clair-arp` — arpegio de campana |
+| **Core-Tan** | 0.6 — terca, estable | Hexágono sólido | Verde | `anchor`: casi no se mueve, destinos que apenas cambian | `debussy-pad` — acordes sostenidos |
+| **Mirror-Tan** | 1.1 — mimetiza vecinos | Anillo hueco | Magenta | `mimic`: su próximo destino se calcula promediando la posición de los 2 agentes libres más cercanos | `crystal-bird` — dos notas FM en cascada |
+| **Signal-Tan** | 1.5 — errática, con fricción | Blob irregular de 5 lóbulos | Naranja | `erratic`: la velocidad de deambulación fluctúa al azar en cada cuadro | `water-bubble` — burbuja FM con detune aleatorio |
+| **Petal** | 1.3 — juguetona, ligera | Flor de lóbulos suaves | Amarillo | `floaty`: deambula rápido con un vaivén vertical constante | `glass-chime` — campanita de vidrio |
+| **Disko** | 1.0 — analítica, de hardware | Diamante | Violeta | `gridSnap`: sus destinos se redondean a una grilla, movimiento "digital" | `liquid-drop` — gota de membrana |
+| **Pixel-Boy** | 1.2 — observadora, digital | Cuadrado alineado a ejes | Turquesa | `idleJump`: casi no se mueve; cuando lo hace, "teletransporta" en vez de desplazarse | `rainbow-lead` — lead grueso de 4 osciladores |
+| **Moth** | 1.4 — impulsiva, flotante | Blob suave de 3 lóbulos | Púrpura | `impulsive`: ráfaga rápida justo después de elegir destino nuevo, luego flota | `space-breeze` — ruido rosa envolvente |
 
-1) Static-Tan
-Tipo: chica humana / híbrida tech
-Forma: pelo cian azulado, auriculares grandes, ropa de oficina/desktop, gestos nerviosos
-Personalidad: muy reactiva, ω_i alta
-Comportamiento: se sincroniza rápido, pero se desestabiliza si recibe ruido cercano
-Visual: destellos cortos, parpadeos, cableado de auriculares en movimiento
-2) Core-Tan
-Tipo: chico humano / personaje central
-Forma: cuerpo más robusto, esfera de cristal grande o disco brillante en el pecho
-Personalidad: terco, ω_i baja
-Comportamiento: resiste el arrastre de K; costó integrarse, pero estabiliza al grupo
-Visual: movimientos lentos, pulso pesado, brillo constante
-3) Mirror-Tan
-Tipo: chica o chico híbrido
-Forma: ojos grandes, pose imitativa, colores que cambian según quién esté cerca en fase
-Personalidad: mimetiza a quien está más sincronizado con ella
-Comportamiento: refleja la fase de sus vecinos
-Visual: tono de luz que “copia” al personaje más estable
-4) Signal-Tan
-Tipo: robot/gadget o híbrido digital
-Forma: estructura mecánica, cables colgando, extras de señal en el pelo
-Personalidad: errática, ω_i variable
-Comportamiento: nunca se integra del todo, produce fricción constante
-Visual: brillo intermitente, ruido granular, energía eléctrica
-5) Petal
-Tipo: animal / mascota + tech
-Forma: criatura tipo gato o conejito con auriculares y accesorios de cable
-Personalidad: juguetona, ω_i media-alta
-Comportamiento: se engancha fácil al grupo, pero cambia de dirección en cuanto hay perturbación
-Visual: cola o orejas con señales de pulso, brillo alegre
-6) Disko
-Tipo: objeto-persona / disco, drive o cassette
-Forma: cuerpo circular, cara pequeña, auriculares de cable, detalles de hardware
-Personalidad: analítica, ω_i media
-Comportamiento: se sincroniza bien por topología, pero no por fuerza global
-Visual: superficie brillante, cambio de intensidad según orden r
-7) Pixel-Boy
-Tipo: chico con estética retro-PC / sprite
-Forma: silueta cuadrada, gafas, pelo angular, cuerpo tipo GUI
-Personalidad: observador, ω_i moderada
-Comportamiento: se conecta a varios nodos, ayuda a formar subgrupos
-Visual: parpadeos tipo iconos, pequeñas líneas de código / señal digital
-8) Moth / Luma
-Tipo: híbrido animal-robot o fantasma tech
-Forma: cuerpo ligero, alas casi transparentes, antenas, brillo tenue
-Personalidad: impulsiva, ω_i variable y poco estable
-Comportamiento: se mueve por proximidad más que por sincronía rígida
-Visual: potencia de luz difusa, formas flotantes, semi-desincronizado
-Cómo encajan con Kuramoto
-Cada personaje representa una variable del sistema:
+Detalles compartidos por todos:
+- **Contorno tipo "sticker"** (silueta oscura detrás del núcleo) para que se recorten contra cualquier fondo del wallpaper.
+- **Aura + brillo + destellos** que titilan de forma independiente entre agentes (fase y velocidad propias), como capas extra encima de la silueta.
+- Cada beat (cruce de fase) escala el núcleo, el halo y el aro exterior — el "thump" visual siempre está sincronizado 1 a 1 con la nota que suena.
 
-θ_i: su pulso/beat individual
-ω_i: su temperamento o velocidad natural
-K: la fuerza general de sincronía
-vecinos: los cables de auriculares que el usuario conecta
-La diferencia es que ahora:
+---
 
-no todos son “partículas” abstractas
-cada uno tiene una forma, un movimiento y un tono característico
-el usuario no solo cambia K, sino también la red social del sistema
-Qué visualmente va a pasar
-Desorden: cada personaje pulsa distinto, cables sueltos, brillo apagado
-Organización parcial: 2–4 personajes se mueven al mismo compás, cables fluorescentes
-Organización estable: todos laten juntos, pulso colectivo, brillo conjunto
-Esto coincide con la lógica del orden r y con la referencia visual que mandaste.
+## Las ventanas y qué le hacen al modelo
+
+Cada ventana en la que cae un agente reemplaza su término de acople de Kuramoto por una variante distinta, además de cambiar cómo suena.
+
+### 🌐 Google
+El agente se **desacopla por completo**: solo usa su propio `ωᵢ` más ruido, sin ver a ningún vecino. Sonido apagado y grave (volumen bajo, filtro cerrado en 800 Hz) — la sensación de estar "aislado navegando".
+
+### 🗂️ Explorador de archivos
+Acople **fuerte, pero solo entre agentes que compartan la misma ventana** (no con todo el colectivo). Si metés a dos agentes juntos ahí, se arrastran mutuamente hacia la misma fase mucho más rápido que en el escritorio libre. Timbre medio-brillante (3200 Hz).
+
+### 🎵 Windows Media Player
+Hay un **metrónomo interno fijo** (100 BPM) corriendo siempre, independiente del resto del sistema. Cualquier agente adentro es arrastrado hacia la fase de ese metrónomo con fuerza `3.2` — sincronía forzada externa, no emergente. Es la ventana más "brillante" en volumen y filtro (1.4 de ganancia, 9000 Hz).
+
+### 🎨 Paint
+El agente **lee el dibujo**: la posición X de lo último trazado define una fase objetivo que persigue (mismo mecanismo que el metrónomo del Player, pero guiado por vos en vez de un tempo fijo). Más colores usados en el lienzo = persecución más firme. Un trazo delgado y suelto lo deja inquieto; una mancha sólida y rellena lo calma. El volumen sube con la cantidad de tinta dibujada, y el filtro traduce el eje Y del trazo en brillo tonal (arriba = agudo, abajo = grave), como un theremin.
+
+### ✉️ Mail
+Un pulso rítmico fijo tipo "ping de notificación" empuja la deriva de fase del agente. Filtro medio (5000 Hz), volumen alto y constante.
+
+### 🖼️ Galería
+No tiene una regla de fase propia — dinámicamente se comporta como un agente libre (Kuramoto de campo medio con el resto del escritorio). Lo que sí cambia radicalmente es el audio: pasa por un bus de chorus dedicado (`galleryChorus`) que le da una riqueza coral notable, con más presencia y volumen (1.5) que cualquier otra ventana.
+
+### 💬 Messenger
+Igual que la Galería: sin regla de fase propia, se comporta como agente libre. El cambio es puramente sonoro (volumen 0.9, filtro medio en 4000 Hz).
+
+### 🗑️ Papelera
+**Aísla y silencia por completo**: `dθ/dt = 0` (fase congelada), volumen en 0, y se **excluye del cálculo del parámetro de orden `r`** — como si el agente dejara de existir para el colectivo. Es el mecanismo de "castigo/pausa" del sistema.
+
+---
+
+## Interacción performativa
+
+- **Arrastrar un agente**: mientras lo sostenés, su fase queda congelada (no avanza) y su audio se abre al máximo (volumen 1.6, filtro 12000 Hz) — feedback inmediato de "tengo el control".
+- **Soltarlo sobre una ventana**: le asigna la regla de fase de esa ventana (arriba) hasta que lo saques.
+- **Doble click sobre un agente en ventana**: lo expulsa — mecanismo de perturbación explícito. Le mete un salto de fase aleatorio (entre −π y π) y lo devuelve al colectivo libre, para observar cómo el resto responde a esa sacudida.
+- **Sliders globales** (acoplamiento K, ruido, deriva, velocidad): afectan a todos los agentes libres a la vez.
+- **Presets** (Calma / Caos / Unión): reconfiguran K, ruido y deriva de golpe para saltar entre regímenes.
+
+## Cómo se comunica el estado colectivo
+
+El parámetro de orden `r` (0 = desorden total, 1 = sincronía perfecta) se traduce en **3 estados explícitos** mostrados en el HUD: ⚡ Desorden (`r < 0.35`), 💫 Organización parcial (`0.35 ≤ r < 0.7`) y 🔗 Organización estable (`r ≥ 0.7`). El mismo valor de `r` también controla en vivo el reverb y el delay de todo el bus de audio — cuanto más sincronizado está el colectivo, más "ambiente/eco" envuelve el sonido, así que el estado se percibe tanto leyendo el HUD como escuchando el espacio sonoro.
+
+# INTENTOS
 
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/85b39e9b-4b83-4fce-82c9-eee7cc95c364" />
