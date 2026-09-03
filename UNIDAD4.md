@@ -128,6 +128,10 @@ Esto coincide con la lógica del orden r y con la referencia visual que mandaste
 <img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/632e615b-e393-4bdd-b1a7-73699cc7081e" />
 
 
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/0cac5799-3981-4388-8f85-b03744a4d8ff" />
+
+<img width="1956" height="969" alt="image" src="https://github.com/user-attachments/assets/ec4c29d4-86a3-4a2e-bb02-c94bf13e0f15" />
+
 
 
 <img width="2535" height="1439" alt="image" src="https://github.com/user-attachments/assets/ab930bf9-8b8f-4f39-8db2-5f2b724a5c77" />
