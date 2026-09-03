@@ -124,6 +124,11 @@ Esto coincide con la lógica del orden r y con la referencia visual que mandaste
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/85b39e9b-4b83-4fce-82c9-eee7cc95c364" />
 
+
 <img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/632e615b-e393-4bdd-b1a7-73699cc7081e" />
 
+
+
+
+<img width="2535" height="1439" alt="image" src="https://github.com/user-attachments/assets/ab930bf9-8b8f-4f39-8db2-5f2b724a5c77" />
 
