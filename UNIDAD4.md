@@ -16,7 +16,7 @@ La idea original era hacer esto con un tema EDM o hyperpop, estilo ninajirachi. 
 
 Por lo que mi idea final es, un ambiente frutiger aero en un escritorio windows vista con posibilidad de entrar en paginas y modificar el sonido de agentes, q son virus.
 
-## El modelo, en una frase
+## El modelo con kursmoto, en una frase
 
 Cada agente es un oscilador de Kuramoto: acumula una fase propia `θᵢ` que avanza según su "temperamento" `ωᵢ` más la influencia de sus vecinos, ponderada por la fuerza de acople `K`. Cada vez que esa fase completa una vuelta (2π), el agente dispara su nota y su "kick" visual (escala, halo, brillo). Soltar un agente sobre una ventana no es solo estético: **cambia la fórmula con la que ese agente calcula su propia fase**, porque cada ventana reemplaza o modula el término de acople de forma distinta. Ahí vive la relación real entre algoritmo, sonido e imagen.
 
@@ -56,14 +56,14 @@ Todos "aplauden" (suenan y destellan) a un ritmo propio, pero se diferencian por
 
 Arrastrar a un personaje dentro de una ventana no es solo decoración: **le cambia las reglas de cómo se sincroniza** mientras esté ahí adentro.
 
-- **🌐 Google — el cuarto del aislamiento.** Adentro, el personaje deja de mirar a los demás por completo. Baila solo a su propio ritmo, sordo al resto de la fiesta. Suena apagado y bajito, como si estuviera con la puerta cerrada.
-- **🗂️ Explorador de archivos — el cuarto de las camarillas.** Los personajes que estén juntos ahí adentro se sincronizan MUY fuerte entre ellos — pero solo entre ellos, ignorando a los de afuera. Es el clásico "grupito cerrado" de la fiesta.
-- **🎵 Windows Media Player — el cuarto del DJ.** Hay un beat fijo sonando siempre a un tempo constante, y quien entra queda obligado a seguir ese beat, le guste o no. Es sincronía impuesta desde afuera, no una que surge sola.
-- **🎨 Paint — el cuarto donde vos sos el DJ.** Acá el personaje no sigue un beat fijo: sigue **lo que vos dibujás**. La posición horizontal de tu último trazo es el ritmo que persigue. Si pintás una mancha sólida y con muchos colores, lo seguís con firmeza; si hacés una rayita suelta, queda más inquieto. Y la altura de tu trazo (arriba/abajo) cambia si suena agudo o grave, como un theremín que vos controlás con el pincel.
-- **✉️ Mail — el cuarto de las notificaciones.** Un "ping" rítmico constante empuja al personaje, como si le llegaran mensajes todo el tiempo.
-- **🖼️ Galería — el cuarto del eco.** Acá la forma de sincronizarse no cambia (sigue las reglas normales de la pista libre), pero el sonido sí: se le agrega un efecto coral/reverberante bien notorio, como cantar en una sala con mucho eco.
-- **💬 Messenger — el cuarto de las charlas cruzadas.** Igual que la Galería: la sincronía no cambia, solo el timbre del sonido, más medio y presente.
-- **🗑️ Papelera — el castigo.** El personaje queda completamente congelado y en silencio, y ni siquiera cuenta para calcular qué tan sincronizado está el grupo — es como si, para efectos de la fiesta, hubiera dejado de existir.
+- ** Google — el cuarto del aislamiento.** Adentro, el personaje deja de mirar a los demás por completo. Baila solo a su propio ritmo, sordo al resto de la fiesta. Suena apagado y bajito, como si estuviera con la puerta cerrada.
+- ** Explorador de archivos — el cuarto de las camarillas.** Los personajes que estén juntos ahí adentro se sincronizan MUY fuerte entre ellos — pero solo entre ellos, ignorando a los de afuera. Es el clásico "grupito cerrado" de la fiesta.
+- ** Windows Media Player — el cuarto del DJ.** Hay un beat fijo sonando siempre a un tempo constante, y quien entra queda obligado a seguir ese beat, le guste o no. Es sincronía impuesta desde afuera, no una que surge sola.
+- ** Paint — el cuarto donde vos sos el DJ.** Acá el personaje no sigue un beat fijo: sigue **lo que vos dibujás**. La posición horizontal de tu último trazo es el ritmo que persigue. Si pintás una mancha sólida y con muchos colores, lo seguís con firmeza; si hacés una rayita suelta, queda más inquieto. Y la altura de tu trazo (arriba/abajo) cambia si suena agudo o grave, como un theremín que vos controlás con el pincel.
+- ** Mail — el cuarto de las notificaciones.** Un "ping" rítmico constante empuja al personaje, como si le llegaran mensajes todo el tiempo.
+- ** Galería — el cuarto del eco.** Acá la forma de sincronizarse no cambia (sigue las reglas normales de la pista libre), pero el sonido sí: se le agrega un efecto coral/reverberante bien notorio, como cantar en una sala con mucho eco.
+- ** Messenger — el cuarto de las charlas cruzadas.** Igual que la Galería: la sincronía no cambia, solo el timbre del sonido, más medio y presente.
+- ** Papelera — el castigo.** El personaje queda completamente congelado y en silencio, y ni siquiera cuenta para calcular qué tan sincronizado está el grupo — es como si, para efectos de la fiesta, hubiera dejado de existir.
 
 ---
 
