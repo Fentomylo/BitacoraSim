@@ -2,6 +2,9 @@
 
 # LINK A LA PAGINA Y AL REPOSITORIO
 
+* [Link pagina](https://fentomylo.github.io/OSCILACIONEZZZZ/)
+* [Link repositorio](https://github.com/Fentomylo/OSCILACIONEZZZZ.git)
+
 # NAVEGADORGOD FRUTIGER AERO JUAN LUIS GUERRA 4.40
 
 Ps bueno, mi idea original era hacer un tipo de necrodancer, pero no queria que fuera moviendose con las teclas, por lo que habia pensado en moverlo con el mouse y que el escenario fuera un escritorio de windows vista, esto porq a mi me gusta mucho la estetica que tenia este sistema.
@@ -34,42 +37,46 @@ Cada uno tiene una forma, un color, un `ωᵢ` (frecuencia natural), un estilo d
 | **Pixel-Boy** | 1.2 — observadora, digital | Cuadrado alineado a ejes | Turquesa | `idleJump`: casi no se mueve; cuando lo hace, "teletransporta" en vez de desplazarse | `rainbow-lead` — lead grueso de 4 osciladores |
 | **Moth** | 1.4 — impulsiva, flotante | Blob suave de 3 lóbulos | Púrpura | `impulsive`: ráfaga rápida justo después de elegir destino nuevo, luego flota | `space-breeze` — ruido rosa envolvente |
 
-Detalles compartidos por todos:
-- **Contorno tipo "sticker"** (silueta oscura detrás del núcleo) para que se recorten contra cualquier fondo del wallpaper.
-- **Aura + brillo + destellos** que titilan de forma independiente entre agentes (fase y velocidad propias), como capas extra encima de la silueta.
-- Cada beat (cruce de fase) escala el núcleo, el halo y el aro exterior — el "thump" visual siempre está sincronizado 1 a 1 con la nota que suena.
+## Los 8 personajes explicados mas amigablemente
+
+Todos "aplauden" (suenan y destellan) a un ritmo propio, pero se diferencian por **cómo se mueven por la pista** y **qué instrumento tocan**, no solo por el color:
+
+- **Static-Tan** (estrella cian): la ansiosa del grupo. Cambia de lugar todo el tiempo y tiembla un poco incluso quieta. Ritmo natural muy rápido. Suena como un arpegio de campana, nervioso.
+- **Core-Tan** (hexágono verde): la más terca y tranquila. Casi no se mueve de su lugar. Su ritmo natural es el más lento de todas. Suena con acordes largos y sostenidos, como un fondo calmado.
+- **Mirror-Tan** (anillo magenta): la copiona. No decide su propio camino: mira a las dos personas libres más cercanas y va hacia el punto medio entre ellas. Suena con dos notas que se persiguen en cascada.
+- **Signal-Tan** (blob naranja): la impredecible. Su velocidad para moverse cambia solita todo el rato, a veces rápido, a veces lento, sin patrón. Suena como una burbuja de agua que se desafina levemente.
+- **Petal** (flor amarilla): la ligera y juguetona. Se mueve rápido con un vaivén suave hacia arriba y abajo, como flotando. Suena como una campanita de vidrio.
+- **Disko** (diamante violeta): la calculadora. Sus movimientos "se pegan" a una cuadrícula invisible, como si pensara en coordenadas exactas en vez de moverse libremente. Suena como una gota líquida.
+- **Pixel-Boy** (cuadrado turquesa): la observadora. Casi no se mueve, y cuando lo hace no camina — aparece directamente en el nuevo lugar, como un salto. Suena con un lead grueso, como de sintetizador ochentero.
+- **Moth** (blob púrpura): la impulsiva. Apenas decide a dónde ir, sale disparada rápido y después se calma y flota el resto del camino. Suena como un viento suave y envolvente.
 
 ---
 
-## Las ventanas y qué le hacen al modelo
+## Las "ventanas" — los cuartos de la fiesta
 
-Cada ventana en la que cae un agente reemplaza su término de acople de Kuramoto por una variante distinta, además de cambiar cómo suena.
+Arrastrar a un personaje dentro de una ventana no es solo decoración: **le cambia las reglas de cómo se sincroniza** mientras esté ahí adentro.
 
-### 🌐 Google
-El agente se **desacopla por completo**: solo usa su propio `ωᵢ` más ruido, sin ver a ningún vecino. Sonido apagado y grave (volumen bajo, filtro cerrado en 800 Hz) — la sensación de estar "aislado navegando".
-
-### 🗂️ Explorador de archivos
-Acople **fuerte, pero solo entre agentes que compartan la misma ventana** (no con todo el colectivo). Si metés a dos agentes juntos ahí, se arrastran mutuamente hacia la misma fase mucho más rápido que en el escritorio libre. Timbre medio-brillante (3200 Hz).
-
-### 🎵 Windows Media Player
-Hay un **metrónomo interno fijo** (100 BPM) corriendo siempre, independiente del resto del sistema. Cualquier agente adentro es arrastrado hacia la fase de ese metrónomo con fuerza `3.2` — sincronía forzada externa, no emergente. Es la ventana más "brillante" en volumen y filtro (1.4 de ganancia, 9000 Hz).
-
-### 🎨 Paint
-El agente **lee el dibujo**: la posición X de lo último trazado define una fase objetivo que persigue (mismo mecanismo que el metrónomo del Player, pero guiado por vos en vez de un tempo fijo). Más colores usados en el lienzo = persecución más firme. Un trazo delgado y suelto lo deja inquieto; una mancha sólida y rellena lo calma. El volumen sube con la cantidad de tinta dibujada, y el filtro traduce el eje Y del trazo en brillo tonal (arriba = agudo, abajo = grave), como un theremin.
-
-### ✉️ Mail
-Un pulso rítmico fijo tipo "ping de notificación" empuja la deriva de fase del agente. Filtro medio (5000 Hz), volumen alto y constante.
-
-### 🖼️ Galería
-No tiene una regla de fase propia — dinámicamente se comporta como un agente libre (Kuramoto de campo medio con el resto del escritorio). Lo que sí cambia radicalmente es el audio: pasa por un bus de chorus dedicado (`galleryChorus`) que le da una riqueza coral notable, con más presencia y volumen (1.5) que cualquier otra ventana.
-
-### 💬 Messenger
-Igual que la Galería: sin regla de fase propia, se comporta como agente libre. El cambio es puramente sonoro (volumen 0.9, filtro medio en 4000 Hz).
-
-### 🗑️ Papelera
-**Aísla y silencia por completo**: `dθ/dt = 0` (fase congelada), volumen en 0, y se **excluye del cálculo del parámetro de orden `r`** — como si el agente dejara de existir para el colectivo. Es el mecanismo de "castigo/pausa" del sistema.
+- **🌐 Google — el cuarto del aislamiento.** Adentro, el personaje deja de mirar a los demás por completo. Baila solo a su propio ritmo, sordo al resto de la fiesta. Suena apagado y bajito, como si estuviera con la puerta cerrada.
+- **🗂️ Explorador de archivos — el cuarto de las camarillas.** Los personajes que estén juntos ahí adentro se sincronizan MUY fuerte entre ellos — pero solo entre ellos, ignorando a los de afuera. Es el clásico "grupito cerrado" de la fiesta.
+- **🎵 Windows Media Player — el cuarto del DJ.** Hay un beat fijo sonando siempre a un tempo constante, y quien entra queda obligado a seguir ese beat, le guste o no. Es sincronía impuesta desde afuera, no una que surge sola.
+- **🎨 Paint — el cuarto donde vos sos el DJ.** Acá el personaje no sigue un beat fijo: sigue **lo que vos dibujás**. La posición horizontal de tu último trazo es el ritmo que persigue. Si pintás una mancha sólida y con muchos colores, lo seguís con firmeza; si hacés una rayita suelta, queda más inquieto. Y la altura de tu trazo (arriba/abajo) cambia si suena agudo o grave, como un theremín que vos controlás con el pincel.
+- **✉️ Mail — el cuarto de las notificaciones.** Un "ping" rítmico constante empuja al personaje, como si le llegaran mensajes todo el tiempo.
+- **🖼️ Galería — el cuarto del eco.** Acá la forma de sincronizarse no cambia (sigue las reglas normales de la pista libre), pero el sonido sí: se le agrega un efecto coral/reverberante bien notorio, como cantar en una sala con mucho eco.
+- **💬 Messenger — el cuarto de las charlas cruzadas.** Igual que la Galería: la sincronía no cambia, solo el timbre del sonido, más medio y presente.
+- **🗑️ Papelera — el castigo.** El personaje queda completamente congelado y en silencio, y ni siquiera cuenta para calcular qué tan sincronizado está el grupo — es como si, para efectos de la fiesta, hubiera dejado de existir.
 
 ---
+
+## Cómo interactuás con todo esto
+
+- **Agarrar y arrastrar a un personaje**: mientras lo sostenés, se congela su ritmo y su sonido se abre al máximo (bien brillante) — para sentir que lo tenés bajo control.
+- **Soltarlo en un cuarto**: adopta las reglas de ese cuarto hasta que lo saques.
+- **Doble click sobre un personaje que está en un cuarto**: lo "expulsa" de golpe — le da un empujón aleatorio a su ritmo y lo devuelve a la pista libre, para ver cómo reacciona el resto del grupo a esa sacudida.
+- **Las perillas del panel** (acoplamiento, ruido, deriva, velocidad): cambian las reglas para TODO el grupo a la vez, no para uno solo.
+
+## Cómo se sabe qué tan sincronizado está el grupo
+
+El sistema calcula un número entre 0 y 1 que mide qué tan de acuerdo está bailando todo el grupo (0 = cada quien a lo suyo, 1 = todos exactamente igual). Ese número se muestra como texto ("Desorden", "Organización parcial", "Organización estable") en la esquina, **y además** hace que el sonido general de la fiesta tenga más o menos eco: cuanto más sincronizado está el grupo, más "envolvente" suena todo — así que se nota tanto leyendo la pantalla como cerrando los ojos y escuchando.
 
 ## Interacción performativa
 
@@ -83,8 +90,27 @@ Igual que la Galería: sin regla de fase propia, se comporta como agente libre. 
 
 El parámetro de orden `r` (0 = desorden total, 1 = sincronía perfecta) se traduce en **3 estados explícitos** mostrados en el HUD: ⚡ Desorden (`r < 0.35`), 💫 Organización parcial (`0.35 ≤ r < 0.7`) y 🔗 Organización estable (`r ≥ 0.7`). El mismo valor de `r` también controla en vivo el reverb y el delay de todo el bus de audio — cuanto más sincronizado está el colectivo, más "ambiente/eco" envuelve el sonido, así que el estado se percibe tanto leyendo el HUD como escuchando el espacio sonoro.
 
-# INTENTOS
+# Cumplimiento de requisitos mínimos
 
+- **8 agentes simultáneos gobernados por el sistema dinámico** ✅ `nodeCount: 8`, los 8 corren bajo la misma ecuación de Kuramoto en todo momento.
+
+- **4 personalidades audiovisuales diferentes** ✅ Hay 8 (Static-Tan, Core-Tan, Mirror-Tan, Signal-Tan, Petal, Disko, Pixel-Boy, Moth), diferenciadas en forma, movimiento e instrumento, no solo color/tono.
+
+- **Manifestación visual y sonora por agente, vinculadas a su comportamiento** ✅ Cada vuelta de fase (θᵢ completa 2π) dispara a la vez la nota y el "kick" visual (escala/halo/brillo) — van siempre juntos.
+
+- **2+ variables del modelo modificables en tiempo real, incluyendo K** ✅ Panel con 4 sliders: acoplamiento (K), ruido, deriva y velocidad.
+
+- **2+ formas de interacción performativa (global e individual)** ✅ Global: sliders y presets (Calma/Caos/Unión). Individual: arrastrar un agente puntual o soltarlo en una ventana específica.
+
+- **1+ mecanismo de perturbación con respuesta observable del colectivo** ✅ Doble click sobre un agente en una ventana lo expulsa con salto de fase aleatorio; se ve cómo reacciona el `r` del resto.
+
+- **Reconocer 3 estados colectivos (desorden, parcial, estable)** ✅ El HUD clasifica `r` en esos 3 estados con umbrales explícitos (0.35 y 0.7).
+
+- **1+ forma perceptible de comunicar el estado colectivo** ✅ Texto del HUD (indicador explícito) + reverb/delay del audio, que se abre más cuanto más sincronizado está el grupo (sonoro).
+
+**Cumple los 8 requisitos mínimos**, varios con margen de sobra.
+
+# INTENTOS
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/85b39e9b-4b83-4fce-82c9-eee7cc95c364" />
 
@@ -95,8 +121,6 @@ El parámetro de orden `r` (0 = desorden total, 1 = sincronía perfecta) se trad
 <img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/0cac5799-3981-4388-8f85-b03744a4d8ff" />
 
 <img width="1956" height="969" alt="image" src="https://github.com/user-attachments/assets/ec4c29d4-86a3-4a2e-bb02-c94bf13e0f15" />
-
-
 
 https://github.com/user-attachments/assets/976b15d7-8544-4404-8604-f1facd606a7f
 
@@ -110,6 +134,13 @@ https://github.com/user-attachments/assets/976b15d7-8544-4404-8604-f1facd606a7f
 <img width="1600" height="761" alt="image" src="https://github.com/user-attachments/assets/b65c97f6-be81-4d07-8be1-09c3dcc37db5" />
 
 <img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/e84d0511-cb17-4c9a-b46d-fb7f6629097e" />
+
+
+# AUTOEVALUACION
+
+<img width="853" height="140" alt="image" src="https://github.com/user-attachments/assets/547491e7-0dbf-4f78-ad04-7dec76e4372b" />
+
+Asi como aparece en la foto 25 puntos en todo, 5.
 
 
 
