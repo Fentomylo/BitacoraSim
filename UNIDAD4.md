@@ -1,8 +1,17 @@
-# IDEA AHI REDACTADA PARA HACER ESTO
+# OSCILACIONES
 
-# Frutiger Aero OS — Cómo funcionan los agentes y las ventanas
+# LINK A LA PAGINA Y AL REPOSITORIO
 
-Este documento explica, ventana por ventana y agente por agente, cómo el modelo de Kuramoto gobierna el comportamiento visual y sonoro del sistema.
+# NAVEGADORGOD FRUTIGER AERO JUAN LUIS GUERRA 4.40
+
+Ps bueno, mi idea original era hacer un tipo de necrodancer, pero no queria que fuera moviendose con las teclas, por lo que habia pensado en moverlo con el mouse y que el escenario fuera un escritorio de windows vista, esto porq a mi me gusta mucho la estetica que tenia este sistema.
+
+Pero, despues de verlo bien y pensarlo mejor, decidi cambiar un poco la idea. Basandome en el virus del mono morado del windows xp o vista, queria que mis agentes fueran como una especie de virus, donde yo con el mouse los puedo jalar y arrastrar y mover como yo queria. Pero aqui vino 
+la idea clave, decidi crear paginas o aplicaciones en el windows, y que dependiendo a la pagina que entrara, esta modificara a cada agente. Haciendo q cada agente con su sonido unico pueda ser modificado dependiendo de donde sea ubicado.
+
+La idea original era hacer esto con un tema EDM o hyperpop, estilo ninajirachi. Pero no funciono muy bien, por lo que decidi hacer como un creador de sonidos que juntos suenan como un ambiente frutiger aero. Queria que fuera fiel tanto lo visual como lo sonoro.
+
+Por lo que mi idea final es, un ambiente frutiger aero en un escritorio windows vista con posibilidad de entrar en paginas y modificar el sonido de agentes, q son virus.
 
 ## El modelo, en una frase
 
@@ -89,5 +98,21 @@ El parámetro de orden `r` (0 = desorden total, 1 = sincronía perfecta) se trad
 
 
 
-<img width="2535" height="1439" alt="image" src="https://github.com/user-attachments/assets/ab930bf9-8b8f-4f39-8db2-5f2b724a5c77" />
+https://github.com/user-attachments/assets/976b15d7-8544-4404-8604-f1facd606a7f
+
+
+<img width="667" height="397" alt="image" src="https://github.com/user-attachments/assets/b52a3d3d-2056-411e-972a-7c7501f37da0" />
+
+<img width="541" height="516" alt="image" src="https://github.com/user-attachments/assets/23382182-cfe3-4c84-b9f0-f6114ed9d9ee" />
+
+<img width="1600" height="767" alt="image" src="https://github.com/user-attachments/assets/786e0f49-e7fc-430b-a553-a092a6d4521d" />
+
+<img width="1600" height="761" alt="image" src="https://github.com/user-attachments/assets/b65c97f6-be81-4d07-8be1-09c3dcc37db5" />
+
+<img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/e84d0511-cb17-4c9a-b46d-fb7f6629097e" />
+
+
+
+
+
 
