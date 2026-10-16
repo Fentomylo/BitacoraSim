@@ -60,14 +60,14 @@ Los elementos que construyen el significado (el mapa de juego, la estela y el lo
 
 ## AUTOEVALUACION
 
-**Cumplimiento del encargo**: mi sistema utiliza las letras del nombre de una organización, permite jugar con ellas y funciona en tiempo real en la Web para el contexto definido. 25 puntos. siento q si me fue bien asi
-**Comprensión y verificación**: puedo explicar y justificar el modelo, sus estados y sus reglas. Puedo predecir y verificar el efecto de modificar una regla o un parámetro. 20 puntos, supongo q si aunque como no estoy seguro lo dejo asi
-**Interacción e identidad**: puedo justificar qué permiten descubrir las acciones y sus consecuencias sobre el atributo elegido, y contrastarlo con lo observado en las pruebas con otras personas. 25 puntos, si puedo diria yo
-**Resolución tipográfica y experiencia de juego**: la composición, el ritmo, los momentos de lectura y las respuestas perceptibles permiten explorar el sistema y sostienen su intención. 25 puntos, ps si es q realmente el mio es muy sencillo
+- **Cumplimiento del encargo**: mi sistema utiliza las letras del nombre de una organización, permite jugar con ellas y funciona en tiempo real en la Web para el contexto definido. 20 puntos. siento q si me fue bien asi, funciona casi todo pero por alguna razon no se pasa la animación del final a la pagina Web, aunque ya lo he intentado varias veces, no m funciono.
+- **Comprensión y verificación**: puedo explicar y justificar el modelo, sus estados y sus reglas. Puedo predecir y verificar el efecto de modificar una regla o un parámetro. 20 puntos, supongo q si aunque como no estoy seguro lo dejo asi
+- **Interacción e identidad**: puedo justificar qué permiten descubrir las acciones y sus consecuencias sobre el atributo elegido, y contrastarlo con lo observado en las pruebas con otras personas. 25 puntos, si puedo diria yo
+- **Resolución tipográfica y experiencia de juego**: la composición, el ritmo, los momentos de lectura y las respuestas perceptibles permiten explorar el sistema y sostienen su intención. 25 puntos, ps si es q realmente el mio es muy sencillo
 
-95 puntos de 100
+90 puntos de 100
 
-4.75
+4.5
 
 ## NO C PORQ EN LA PAGINA NO APARECE LA ANIMACION
 
