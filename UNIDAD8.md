@@ -8,7 +8,6 @@
 
 # Reflexión final
 
-# Reflexion final
 
 En la actualidad es imposible no pensar en la IA. Es una herramienta que revoluciono el mundo, con sus cosas malas pero tambien con sus buenas. La cosa es, porque seguir esforzandonos si hay algo que puede hacer lo que hacemos nosotros mas rapido. Es como si la IA hubiera llegado para reemplazar al humano.
 
